@@ -30,8 +30,8 @@ from magnetar_modulation_utils import (
 
 # Re‑use compute_z2_cube from the first script via an import‑hack if both
 # scripts live in the same directory.
-# from corner_mock_integral_PTA import compute_z2_cube
 
+from corner_integral import compute_z2_cube
 
 def parse_args() -> argparse.Namespace:
     p = argparse.ArgumentParser(
