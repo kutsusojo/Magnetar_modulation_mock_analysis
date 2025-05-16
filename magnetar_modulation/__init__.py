@@ -9,10 +9,6 @@ Subpackages
 cli
     Small command-line entry points (see ``python -m magnetar_modulation.cli --help``)
 
-References
-----------
-If you use this code in a publication, please cite:
-    Chu & Collaborators, *Magnetar Modulation Utilities*, v0.1.0 (2025)
 """
 
 from importlib.metadata import version as _v
