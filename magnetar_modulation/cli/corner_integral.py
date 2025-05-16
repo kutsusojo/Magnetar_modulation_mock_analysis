@@ -1,7 +1,8 @@
 # -----------------------------------------------------------------------------
-# corner_mock_integral_PTA.py
+# corner_integral.py
 # -----------------------------------------------------------------------------
-"""Corner plot of *integral* Z²ₙ projections.
+"""
+Corner plot of *integral* Z²ₙ projections.
 
 This refactored version:
 * imports **all shared constants** and `z2_binned` directly from
@@ -17,7 +18,7 @@ import argparse
 
 import numpy as np
 import matplotlib.pyplot as plt
-import corner  # pip install corner
+import corner
 
 from magnetar_modulation_utils import (
     P_TRUE,
