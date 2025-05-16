@@ -1,11 +1,14 @@
 # -----------------------------------------------------------------------------
-# corner_mock_max_PTA.py
+# corner_max.py
 # -----------------------------------------------------------------------------
-"""Corner plot of *maximum* Z²ₙ projections (same structure as above).
+
+"""
+Corner plot of *maximum* Z²ₙ projections.
 
 Only the projection method differs; code is otherwise identical so we
 factor out shared helpers.
 """
+
 from __future__ import annotations
 
 from pathlib import Path
