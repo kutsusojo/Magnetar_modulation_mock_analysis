@@ -4,7 +4,7 @@ magnetar_modulation_utils.py
 ===============
 
 Shared utilities and physical constants for the pulse-search analysis
-scripts that accompany the SN 1987A / 1E 2259+586 timing project.
+scripts that accompany the 1E 1547.0-5408 / 1E 2259+586 timing project.
 
 All scripts in this repository import *only* from this module to
 avoid copy-pasting functions such as :pyfunc:`z2_binned`.  That makes
