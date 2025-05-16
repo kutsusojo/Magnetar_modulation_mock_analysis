@@ -1,0 +1,27 @@
+[build-system]
+requires      = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name        = "magnetar_modulation"
+version     = "0.1.0"
+description = "Utilities for Z² searches, timing maps and movie rendering in magnetar analyses"
+readme      = "README.md"
+license     = { text = "MIT" }
+authors     = [{ name = "Yao Chu", email = "yaochu@example.com" }]
+
+# Runtime dependencies (add/adjust as needed)
+dependencies = [
+    "numpy>=1.22",
+    "matplotlib>=3.8",
+    "corner>=2.2",          # for the corner plots
+    "tqdm>=4.66",
+    "imageio[ffmpeg]>=2.34" # frames→gif/mp4
+]
+
+# Install-time hooks: expose the CLI scripts
+[project.scripts]
+z2-grid     = "magnetar_modulation.cli.grid_map:main"
+z2-corner   = "magnetar_modulation.cli.corner_integral:main"   # adjust once you merge modes
+frames2gif  = "magnetar_modulation.cli.frames:main"
+
