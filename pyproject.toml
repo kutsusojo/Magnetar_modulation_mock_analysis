@@ -8,7 +8,7 @@ version     = "0.1.0"
 description = "Utilities for Z² searches, timing maps and movie rendering in magnetar analyses"
 readme      = "README.md"
 license     = { text = "MIT" }
-authors     = [{ name = "Yao Chu", email = "yaochu@example.com" }]
+authors     = [{ name = "sojo (Chushu Qu)", email = "sojo@g.ecc.u-tokyo.ac.jp" }]
 
 # Runtime dependencies (add/adjust as needed)
 dependencies = [
